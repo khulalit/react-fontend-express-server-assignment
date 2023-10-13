@@ -1,4 +1,4 @@
-# Project Name
+# React Express Assignment
 
 React project that is served using the express api and also an api that provides the list of the user.
 It is done like mentioned in the assignment.
