@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useEffect, useState, Fragment } from "react";
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchData } from "../../store/dataSlice";
@@ -59,7 +60,7 @@ function Home() {
 
         {Array.from({ length: totalPages }, (_, index) => index + 1).map((e: number) => <button key={e} onClick={() => {
           setPage(e)
-        }} className={`btn ${e == page && 'btn-danger'}`}>{e}</button>)}
+        }} className={`btn ${+e === +page && 'btn-danger'}`}>{e}</button>)}
 
         <button className="btn" onClick={() => {
           if (pageNo < totalPages) setPage(prev => prev + 1);
