@@ -3,7 +3,7 @@ const path = require('path');
 const usersRoute = require('./routes/users'); // Import the users route
 const cors = require('cors');
 
-const app = express();
+export const app = express();
 const PORT = process.env.PORT || 3000;
 
 // use cors
