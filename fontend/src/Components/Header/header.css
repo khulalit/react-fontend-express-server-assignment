@@ -1,0 +1,34 @@
+._header{
+    padding-inline: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem ;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+._header input {
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    width: 100%;
+}
+._header input:focus-visible{
+    outline: none;
+}
+._header > div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+}
+._header > div > label{
+    width: fit-content;
+    word-wrap: none;
+}
+._header select{
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    width: 100%;
+}

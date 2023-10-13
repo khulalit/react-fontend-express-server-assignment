@@ -1,0 +1,10 @@
+.main{
+    height: 80dvh;
+    padding: 1rem;
+    overflow-y: auto;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}

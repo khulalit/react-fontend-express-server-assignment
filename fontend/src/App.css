@@ -1,0 +1,38 @@
+/* these are the utility classes that will be used in whole app */
+li {
+  list-style-type: none;
+}
+/* text */
+.uppercase {
+  text-transform: uppercase;
+}
+.text-bold {
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+p{
+  word-wrap: break-word;
+}
+
+/*  generic class for button */
+.btn{
+  all: unset;
+  padding-inline: 0.5rem;
+  padding-block: 4px;
+  cursor: pointer;
+  font-weight:400;
+  font-size: 0.7rem;
+}
+
+.btn-rounded {
+  border-radius: 2rem;
+}
+
+.btn-danger {
+  background-color: tomato;
+  color: white;
+}
+
+.btn-danger:hover{
+  background-color: rgb(202, 80, 59);
+}

@@ -1,0 +1,19 @@
+._header{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    padding-block: 0.5rem;
+    position: sticky;
+    top: 0;
+}
+._header button{
+    width: max-content;
+    padding-inline: 2rem;
+    height: 100%;
+}
+._header h1{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    padding-inline: 1rem;
+}

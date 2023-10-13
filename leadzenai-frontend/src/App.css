@@ -1,0 +1,23 @@
+.app{
+  padding: 2rem;
+}
+
+.header{
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+}
+
+.search-form{
+  flex: 1;
+}
+
+.select-option{
+  flex: 1;
+}
+
+.rounded-md{
+  border-radius: 10%;
+}

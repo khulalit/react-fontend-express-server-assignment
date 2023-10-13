@@ -1,0 +1,31 @@
+:root{
+    --box-shadow : 4px 4px 18px rgb(231, 226, 226);
+    --radius : 1rem;
+    --padding-inline : 2rem;
+    --padding-block : 3rem;
+    --margin : 1rem;
+    --border-thickness : 1px;
+    --border-color : #dddddd;
+}
+._details{
+    margin-top: calc(4*var(--margin));
+    padding: var(--margin);
+    border: var(--border-thickness) solid var(--border-color);
+    border-radius: var(--radius);
+}
+._details h3{
+    font-size: 1rem;
+}
+._details p{
+    font-size: 14px;
+}
+._extra-details{
+    display: flex;
+    justify-content: space-between;
+}
+._extra-details .col-1{
+    width: 50%;
+}
+._extra-details .col-2{
+    width: 50%;
+}
