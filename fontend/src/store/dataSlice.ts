@@ -8,7 +8,7 @@ interface FetchDataParams {
 
 // Define an async thunk to fetch data
 export const fetchData = createAsyncThunk<User[], FetchDataParams>('data/fetchData', async ({page}) => {
-  const response = await fetch(`http://localhost:3000/api/users?page=${page}`);
+  const response = await fetch(`api/users?page=${page}`);
   const data = await response.json();
   return data;
 });
